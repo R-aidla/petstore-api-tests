@@ -39,7 +39,7 @@ At least 5 different endpoints:
 2. `GET /pet/:id` — (create and) verify the pet exists
 3. `PUT /pet` — (create and) update name and status
 4. `DELETE /pet/:id` — (create and) delete a pet
-5. `GET /user/:id` — verify it returns 404
+5. `GET /pet/findByStatus?status=:status` — get all pet by a status
 
 
 
